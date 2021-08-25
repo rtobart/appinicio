@@ -1,0 +1,7 @@
+{
+  "name": "appinicio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
