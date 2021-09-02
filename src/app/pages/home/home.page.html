@@ -1,9 +1,11 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button menu="custom"></ion-menu-button>
+    </ion-buttons>
     <ion-title>
       Ejemplo 1
     </ion-title>
-    <ion-icon name="menu" slot="end" class="ion-padding"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
@@ -25,10 +27,4 @@
 </ion-button>
 </ion-content>
 
-<ion-footer >
-  <ion-toolbar >
-    <ion-text class="ion-padding">
-      <p>Awesome text</p>
-    </ion-text>
-  </ion-toolbar>
-</ion-footer>
+<app-footer></app-footer>
