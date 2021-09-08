@@ -7,6 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Page2Page implements OnInit {
 
+  personas=[{
+    nombre:'Wacoldo',
+    apellido:'soto',
+    img:'../assets/img/a.png'
+  },{
+    nombre:'robin',
+    apellido:'tobar',
+    img:'../assets/img/a.png'
+  },{
+    nombre:'pipe',
+    apellido:'tobar',
+    img:'../assets/img/a.png'
+  },{
+    nombre:'nati',
+    apellido:'retamal',
+    img:'../assets/img/a.png'
+  }]
   constructor() { }
 
   ngOnInit() {
